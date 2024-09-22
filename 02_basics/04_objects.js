@@ -42,3 +42,7 @@ console.log(obj3);
 //Spread operator in objects
 const obj4 = {... obj1, ... obj2}
 console.log(obj4);
+
+console.log(Object.keys(tinderUser));
+console.log(Object.values(tinderUser));
+console.log(Object.entries(tinderUser));
