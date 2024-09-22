@@ -10,3 +10,4 @@ let mytimestamp = Date.now()
 console.log(mytimestamp);
 console.log(mydate.getDate());
 console.log(mydate.getMonth()+1); // because months starts with 0
+
