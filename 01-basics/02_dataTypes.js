@@ -21,3 +21,4 @@
 // Object
 
 console.log(typeof null); // it is of type object
+console.log(typeof undefined); // it is of type undefined
