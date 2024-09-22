@@ -9,3 +9,12 @@ console.log(`Hi my name is ${fname.toUpperCase() + lname}`);
 const getName = new String ('Somya')
 console.log(getName.length);
 console.log(getName.toUpperCase());
+
+
+// Some Methods in JS :-
+
+// substring()
+// trim()
+// slice()
+// indexOf()
+//split()
