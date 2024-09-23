@@ -20,3 +20,21 @@ if (true) {
 // these two will not print because of the scope as let and const cannot be used otside
 console.log(c);
 // but on the same hand var can be used outside the scope
+
+
+
+//nested scopes
+
+function one() {
+    const username = "somu"
+
+    function two() {
+        const web = "yt"
+        console.log(username);
+    }
+    // console.log(web);
+
+    two()
+}
+
+one()
